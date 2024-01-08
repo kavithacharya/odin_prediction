@@ -65,9 +65,9 @@ st.title("Glass Type Predictor")
 st.sidebar.title("Exploratory Data Analysis")
 
 # Using if statement, display raw data on the click of the checkbox.
-if st.sidebar.checkbox("Show raw data"):
-    st.subheader("Full Dataset")
-    st.dataframe(glass_df)
+# if st.sidebar.checkbox("Show raw data"):
+#     st.subheader("Full Dataset")
+#     st.dataframe(glass_df)
 
 # Sidebar for scatter plot
 st.sidebar.subheader("Scatter Plot")
